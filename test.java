@@ -14,7 +14,9 @@ public class test {
 		lists[0] = l1;
 		lists[1] = l2;
 		
-		System.out.println(new DivideSolution().divide2(10, 5));
+		String s = "barfoothefoobarman";
+		String[] words = {"foo","bar"};
+		System.out.println(new FindSubstringSolution().findSubstring(s, words));
 	}
 
 }
